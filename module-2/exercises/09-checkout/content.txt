@@ -1,0 +1,19 @@
+first_name, required
+last_name, required
+address_line_1, required
+address_line_2
+city, required
+country, required
+province, required
+postal_code, required
+phone, required
+email, required
+
+use_for_shipping, optional
+
+payment, required, options: credit_card, debit_card, paypal
+
+name_on_card, required
+credit_card_number, required
+expiration, required
+CVV, required
