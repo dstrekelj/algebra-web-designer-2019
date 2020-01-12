@@ -8,3 +8,4 @@
 
 * [Cheat sheet](cheat-sheet.md)
 * [Examples](examples/)
+* [Exercises](exercies/)
