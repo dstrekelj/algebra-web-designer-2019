@@ -1,0 +1,330 @@
+/*
+Theme Name: Travelogue
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1152px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* HEADER ... */
+
+.header {
+    text-align: center;
+    margin: 80px 0;
+}
+.header > .logo-link {
+    margin-bottom: 16px;
+}
+.logo-link {
+    display: inline-block;
+}
+
+.menu {
+    list-style-type: none;
+}
+.menu-item {
+    display: inline-block;
+    margin: 0 16px;
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.menu-item:hover, .current-menu-item {
+    color: #50AD9C;
+    text-decoration: underline;
+}
+.menu-item a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+/* ... HEADER */
+
+/* FEATURED ARTICLE ... */
+
+.featured-article {
+    margin: 80px 0;
+}
+.featured-article > .featured-article-image {
+    margin-bottom: 16px;
+}
+.featured-article > .featured-article-metadata {
+    margin-bottom: 16px;
+}
+
+.featured-article-image {
+    width: 100%;
+}
+
+.featured-article-metadata {
+    line-height: 1.25;
+    color: #808080;
+    font-weight: 300;
+}
+
+.featured-article-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #50AD9C;
+}
+
+.featured-article-title > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.category-link {
+    color: #50AD9C;
+    text-decoration: none;
+    font-weight: 400;
+}
+.category-link:hover {
+    text-decoration: underline;
+}
+
+/* ... FEATURED ARTICLE */
+
+/* ARTICLE LIST ... */
+
+.article-list {
+    margin: 80px 0;
+}
+.article-list > .article {
+    margin: 40px 0;
+}
+
+.article::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.article-image {
+	float: left;
+	width: 320px;
+	height: 240px;
+	margin-right: 16px;
+}
+
+.article-content {
+	float: left;
+	width: calc(100% - 320px - 16px);
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #50AD9C;
+    margin-bottom: 16px;
+}
+
+.article-title > a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.article-metadata {
+    line-height: 1.25;
+    color: #808080;
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+
+.article-excerpt {
+    margin-bottom: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.article-link {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.article-link:hover {
+    text-decoration: underline;
+    color: #50ad9c;
+}
+
+/* ... ARTICLE LIST */
+
+/* FOOTER ... */
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #1a1a1a;
+    margin: 80px 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #50AD9C;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* ... FOOTER */
+
+/* SINGLE ARTICLE ... */
+
+.single-article {
+    margin: 80px 0;
+}
+.single-article > .single-article-image {
+    margin-bottom: 16px;
+}
+.single-article > .single-article-metadata {
+    margin-bottom: 16px;
+}
+.single-article > .single-article-title {
+    margin-bottom: 32px;
+}
+
+.single-article-image {
+    width: 100%;
+}
+
+.single-article-metadata {
+    line-height: 1.25;
+    color: #808080;
+    font-weight: 300;
+}
+
+.single-article-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #50AD9C;
+}
+
+.single-article-content {
+    font-weight: 300;
+    line-height: 1.5;
+}
+.single-article-content p {
+    margin: 1em 0;
+}
+
+/* ... SINGLE ARTICLE */
+
+/* ARCHIVE */
+
+.archive-title {
+    font-size: 48px;
+    margin: 80px 0;
+    color: #50AD9C;
+    font-weight: 700;
+}
+
+/* ...ARCHIVE */
+
+
+/* ... SINGLE ARTICLE */
+
+.footer-menu {
+    margin-bottom: 16px;
+}
+
+/* CONTACT FORM */
+
+.wpcf7 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wpcf7 label {
+    display: block;
+    margin: 1.5em 0;
+}
+
+.wpcf7-form-control-wrap {
+    display: block;
+    margin-top: 0.5em;
+}
+
+.wpcf7-form-control {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1em;
+    border: 0;
+    background: #eee;
+}
+
+.wpcf7-submit {
+    background: #50ad9c;
+    color: #fff;
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+    padding: 1em;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.wpcf7-submit:hover {
+    text-decoration: underline;
+}
+
+/* ... CONTACT FORM */
+
+/* CONTACT PAGE */
+
+.contact-title {
+    text-align: center;
+    font-size: 48px;
+    margin: 80px 0;
+    color: #50AD9C;
+    font-weight: 700;
+}
+
+/* ... CONTACT PAGE */
+
+/* PROMO PAGE */
+
+.promo-title {
+    font-size: 48px;
+    margin: 80px 0;
+    color: #50AD9C;
+    font-weight: 700;
+}
+
+.promo-content {
+    margin: 40px 0;
+}
+
+.promo-content > p {
+    line-height: 1.5;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.promo-list {
+    margin: 80px 0;
+}
+
+.promo-list > .article {
+    margin: 40px 0;
+}
+
+/* ... PROMO PAGE */
